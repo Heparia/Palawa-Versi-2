@@ -1,0 +1,2 @@
+const level2_soal_jawaban = '["wedhus", "klambi", "bulan", "bakso", "nggambar", "pacoban", "tumindak", "tempe", "sembahyang", "purwantoro"]';
+export default (index) => JSON.parse(level2_soal_jawaban)[index];
