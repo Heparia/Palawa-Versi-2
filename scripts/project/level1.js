@@ -1,0 +1,2 @@
+const level1_soal_jawaban = '[{"soal":"Padha","jawaban":[10,11]},{"soal":"Sapa","jawaban":[7,10]},{"soal":"Jawa","jawaban":[12,8]},{"soal":"Mata","jawaban":[15,6]},{"soal":"Basa","jawaban":[17,7]},{"soal":"Nyata","jawaban":[14,6]},{"soal":"Kaca","jawaban":[4,2]},{"soal":"Tama","jawaban":[6,15]},{"soal":"Lara","jawaban":[9,3]},{"soal":"Dhawa","jawaban":[11,8]}]';
+export default (index) => JSON.parse(level1_soal_jawaban)[index];
